@@ -35,7 +35,7 @@ labeler::label_for() {
   local -r l_max_size="$5"
 
   if [ "$total_modifications" -lt "$xs_max_size" ]; then
-    label="size/xs"
+    label="Trivial"
   elif [ "$total_modifications" -lt "$s_max_size" ]; then
     label="size/s"
   elif [ "$total_modifications" -lt "$m_max_size" ]; then
