@@ -37,7 +37,7 @@ labeler::label_for() {
   if [ "$total_modifications" -lt "$xs_max_size" ]; then
     label="Trivial"
   elif [ "$total_modifications" \> "$m_max_size" ]; then
-    label="size/xl"
+    label="XL"
   fi
 
   echo "$label"
